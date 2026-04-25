@@ -215,8 +215,10 @@ footer {
 /* ===== 모바일 대응 ===== */
 @media (max-width: 768px) {
   .main-content {
+    display: flex;
     flex-direction: column;
     gap: 20px;
+
   }
 
   .sidebar {
