@@ -206,7 +206,7 @@ input[type='radio'] {
 }
 
 .ball span {
-  font-size: 15px;
+  font-size: clamp(10px, 2vw, 16px);
   letter-spacing: 0.12em;
   white-space: nowrap;
   transform: rotate(calc(-1 * var(--angle)));
