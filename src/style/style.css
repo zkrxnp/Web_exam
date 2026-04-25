@@ -211,3 +211,34 @@ footer {
   color: #aaa;
   /* max-height: 100px; */
 }
+
+/* ===== 모바일 대응 ===== */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .content-area {
+    width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav-links {
+    font-size: 13px;
+  }
+
+  .tabs {
+    font-size: 18px;
+  }
+}
