@@ -231,16 +231,30 @@ footer {
 
   header {
     flex-direction: column;
+    align-items: flex-start;
     height: auto;
     gap: 10px;
-    padding: 10px;
+    padding: 10px 15px;
+  }
+
+  .header-left {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .nav-links {
-    font-size: 13px;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 14px;
   }
 
-  .tabs {
-    font-size: 18px;
+  .header-right {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .team-link {
+    border: none;
+    padding-left: 0;
   }
 }
