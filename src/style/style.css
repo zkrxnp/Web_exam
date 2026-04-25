@@ -211,19 +211,3 @@ footer {
   color: #aaa;
   /* max-height: 100px; */
 }
-
-@media (max-width: 768px) {
-  .stage {
-    transform: scale(0.6); 
-  }
-
-  .ball {
-    width: 60px;
-    height: 60px;
-    font-size: 12px;
-  }
-
-  .menu-btn {
-    transform: scale(0.8);
-  }
-}
