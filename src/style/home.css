@@ -25,7 +25,7 @@ input[type='radio'] {
   --core-scale: 1;
   --core-opacity: 1;
   --bg-tint: none;
-  --orbit-radius: clamp(150px, 30vw, 245px);
+  --orbit-radius: clamp(120px, 22vw, 245px);
 
   --ball-hover-bg: #0b0f1a;
   --ball-hover-glow: rgba(116, 118, 212, 0.45);
@@ -36,8 +36,8 @@ input[type='radio'] {
 ===================== */
 .orbit-wrapper {
   position: relative;
-  width: min(80vw, 520px);
-  height: min(80vw, 520px);
+  width: clamp(260px, 70vw, 520px);
+  height: clamp(260px, 70vw, 520px);
 }
 
 /* =====================
@@ -163,8 +163,8 @@ input[type='radio'] {
    BALL ✅ 핵심 변경
 ===================== */
 .ball {
-  width: clamp(60px, 10vw, 120px);
-  height: clamp(60px, 10vw, 120px);
+  width: clamp(50px, 8vw, 100px);
+  height: clamp(50px, 8vw, 100px);
   border-radius: 50%;
   background: white;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
